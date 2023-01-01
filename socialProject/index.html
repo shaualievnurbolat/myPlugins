@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <input type="text" placeholder="Введите название списка" id="addList">
+            <button id="sendList">Добавить</button>
+        </div>
+        <hr>
+        <div class="wrapper__content">
+            <h3>Активные дела</h3>
+            <ul class="wrapper__content-lists">
+                <li class="wrapper__content-none">
+                    Список пуст...
+                </li>
+            </ul>
+            <hr>
+            <h3>Завершенные дела</h3>
+            <ul class="wrapper__content-finished">
+                <li class="wrapper__content-nones">
+                    Список пуст...
+                </li>
+            </ul>
+        </div>
+        <hr class="wrapper__line">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

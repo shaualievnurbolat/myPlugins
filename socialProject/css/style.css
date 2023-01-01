@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #2d2d2d;
+}
+
+.wrapper {
+  width: 400px;
+  height: 600px;
+  background-color: #D7C597;
+  position: relative;
+}
+.wrapper__inner {
+  margin: 0 20px;
+  padding: 10px 10px;
+  border-left: 1px solid #2d2d2d;
+  border-right: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__inner input {
+  width: 70%;
+  height: 30px;
+  background: none;
+  border: 1px solid #2d2d2d;
+  padding: 0 5px;
+  font-family: "JetBrains Mono", monospace;
+  outline: none;
+}
+.wrapper__inner button {
+  width: 29%;
+  height: 30px;
+  font-family: "JetBrains Mono", monospace;
+  background: none;
+  border: 1px solid #2d2d2d;
+  font-weight: 400;
+}
+.wrapper__inner button:hover {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+.wrapper hr {
+  height: 1px;
+  border: none;
+  background-color: #2d2d2d;
+}
+.wrapper__line {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+.wrapper__content {
+  margin: 0 20px;
+  border-left: 1px solid #2d2d2d;
+  border-right: 1px solid #2d2d2d;
+  height: 560px;
+  padding: 10px 10px 30px 5px;
+}
+.wrapper__content h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.wrapper__content hr {
+  margin: 15px 0;
+}
+.wrapper__content-none {
+  text-align: center;
+}
+.wrapper__content-nones {
+  text-align: center;
+}
+.wrapper__content-list {
+  padding: 10px;
+  border-top: 1px solid #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper__content-list .list-block {
+  display: flex;
+}
+.wrapper__content-list span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #2d2d2d;
+  margin-left: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.wrapper__content-list span:hover {
+  background-color: #202020;
+}
+.wrapper__content-lists {
+  margin-top: 10px;
+}
+.wrapper__content-finished {
+  margin-top: 10px;
+}
+
+.finished {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
